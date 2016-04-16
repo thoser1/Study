@@ -23,8 +23,11 @@
     _sum = a + b;
     
     NSLog(@"The result is: %d",_sum);
+    [self sayByeBye];
 }
-
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
