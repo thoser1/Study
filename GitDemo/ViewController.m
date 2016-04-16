@@ -26,6 +26,7 @@
      [self sayHello];
     [self sayByeBye];
     [self sayYES];
+    [self sayNO];
 }
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
@@ -35,6 +36,9 @@
 }
 -(void)sayYES{
     NSLog(@"yes");
+}
+-(void)sayNO{
+    
 }
 
 - (void)didReceiveMemoryWarning {
