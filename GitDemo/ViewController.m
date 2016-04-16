@@ -25,6 +25,7 @@
     NSLog(@"The result is: %d",_sum);
      [self sayHello];
     [self sayByeBye];
+    [self sayYES];
 }
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
@@ -32,6 +33,10 @@
 -(void)sayHello{
     NSLog(@"Hello");
 }
+-(void)sayYES{
+    NSLog(@"yes");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
