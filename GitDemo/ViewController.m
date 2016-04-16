@@ -24,6 +24,10 @@
     
     NSLog(@"The result is: %d",_sum);
      [self sayHello];
+    [self sayByeBye];
+}
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 -(void)sayHello{
     NSLog(@"Hello");
