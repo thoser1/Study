@@ -27,6 +27,7 @@
     [self sayByeBye];
     [self sayYES];
     [self sayNO];
+    [self sayYES];
 }
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
