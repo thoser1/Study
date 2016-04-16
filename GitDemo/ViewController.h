@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestClass.h" 
 
 @interface ViewController : UIViewController
 
 @property (nonatomic) int sum;
+
+@property (nonatomic, strong) TestClass *testClass;
 
 @end
 
